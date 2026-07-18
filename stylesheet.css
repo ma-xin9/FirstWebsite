@@ -1,7 +1,30 @@
 .one {
     background-color:#1F2937;
-
-}
-.two {
+    
     
 }
+.header {
+    background-color:#1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:250px;
+    padding-right:270px;
+}
+a:link {
+    color:white
+    
+}
+a:visited {
+    color:#dad
+    
+}
+a:hover {
+    color:skyblue
+}
+
+.links {
+    display:flex;
+    gap:40px;
+}
+
