@@ -1,6 +1,7 @@
 .one {
     background-color:#1F2937;
-    
+    margin: 0px;
+    padding:20px;    
     
 }
 .header {
@@ -26,17 +27,37 @@ a:hover {
 .links {
     display:flex;
     gap:40px;
-    font-size:20px
+    font-size:18px;
+    color: #E5E7EB;
+    font-family: Roboto;
 }
 .image {
+    display: block;
     padding:2px;
 }
-.two {
+.twoimage {
      background-color:white;
+     display:flex;
+     gap:85px;
+     justify-content: center;
+     padding:20px;
+     
+}
+.twotext {
+    background-color:white;
+    display:block;
+    font-size:36px;
+    color:#1F2937;
+    weight:900;
+    text-align: center;
+    text-decoration:underline 
 }
 .three {
-    background-color:rgb(201, 200, 200);
+    background-color:#E5E7EB;
     text-align:center;
+    font-size: 36px;
+    color:#1F2937;
+
 }
 .five {
     background-color:#1F2937;
@@ -47,4 +68,16 @@ a:hover {
     height: 60px;
     margin:0px;
     
+}
+.animals {
+    border: 4px ridge black;
+}
+.text1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    weight: 900
+}
+.text2 {
+    font-size:18px;
+    color: #E5E7EB
 }
