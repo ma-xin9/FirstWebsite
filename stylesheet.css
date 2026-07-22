@@ -1,7 +1,12 @@
 .one {
     background-color:#1F2937;
     margin: 0px;
-    padding:20px;    
+    padding:40px;    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    
     
 }
 .header {
@@ -57,6 +62,8 @@ a:hover {
     text-align:center;
     font-size: 36px;
     color:#1F2937;
+    line-height: 10px;
+    padding:10px;
 
 }
 .five {
@@ -75,9 +82,44 @@ a:hover {
 .text1 {
     font-size: 48px;
     color:#F9FAF8;
-    weight: 900
+    weight: 900;
+    font-family:Georgia;
+    line-height:50px;
+    
 }
-.text2 {
+.text {
     font-size:18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding-left:200px;
+    line-height:10px;
+    padding-top:0px;
+}
+.placeholder {
+    display:flex;
+    padding-right:100px;
+    
+}
+.fourkauparwala {
+    background-color: #f2f7ff;
+    padding: 80px ;
+}
+.four{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px 20px 20px;
+    
+}
+.button {
+padding: 5px;
+   background-color: #3882F6;
+   border-radius: 2px;
+   border: 2px ridge white;
+   
+   vertical-align: centre;
+}
+.texttosignup {
+    color:white;
+    font-size: 20px;
 }
